@@ -7,7 +7,7 @@ export default StyleSheet.create({
         flex:1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight +20,
-        /*backgroundColor: '#000',*/
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
     },
 
     header: {

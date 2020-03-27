@@ -7,17 +7,21 @@ export default StyleSheet.create({
         flex:1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight +20,
+        backgroundColor: 'rgba(0, 0, 0, 0.2)',
     },
 
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        
     },
 
     headerText: {
         fontSize: 15,
-        color: '#737380',
+        color: '#000',
+        //color: '#737380',
+        
     },
     headerTextBold: {
         fontWeight: 'bold',
@@ -27,6 +31,7 @@ export default StyleSheet.create({
         fontSize: 30,
         marginBottom: 16,
         marginTop: 48,
+        //color: '#13131a',
         color: '#13131a',
         fontWeight: 'bold',
     },
@@ -34,7 +39,8 @@ export default StyleSheet.create({
     description: {
         fontSize: 16,
         lineHeight: 24,
-        color: '#737380',
+        color: '#000',
+        //color: '#737380',
     },
 
     IncidentsList: {
